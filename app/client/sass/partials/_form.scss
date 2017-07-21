@@ -1,0 +1,26 @@
+form {
+
+  input[type=text] {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    outline: none;
+
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: lighten($green, 20%);
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+      color: lighten($green, 20%);
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+      color: lighten($green, 20%);
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      color: lighten($green, 20%);
+    }
+  }
+
+  .control {
+    padding: 0 0 8px 0;
+  }
+}

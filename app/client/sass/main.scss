@@ -1,0 +1,75 @@
+/* Libs styling */
+@import
+  '../../../node_modules/alertifyjs/build/css/alertify.min.css'
+  ;
+
+/* Our styling */
+@import
+  'partials/reset',
+  'partials/variables',
+  'partials/header',
+  'partials/form',
+  'partials/button',
+  'partials/news'
+  ;
+
+
+
+body {
+  background: $white;
+  color: $grey;
+  font-family: $fontFamily;
+  font-size: 15px;
+  padding-top: 76px;
+  padding-bottom: 1em;
+}
+
+* {
+  font-size: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: $green;
+  text-decoration: none;
+
+  &:hover {
+    color: lighten($green, 20%);
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 0 1em;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ajs-message {
+  color: $white;
+  width: 300px !important;
+  right: 300px !important;
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+.button {
+  background: $white;
+  padding: 8px;
+  border: 1px solid $green;
+  color: $green;
+  cursor: pointer;
+  border-radius: 3px;
+
+  &:hover {
+    color: $white;
+    background: $green;
+  }
+}

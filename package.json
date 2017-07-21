@@ -1,0 +1,58 @@
+{
+  "name": "RearNakedMMA",
+  "version": "1.0.0",
+  "description": "Share links, photos and videos nice and snappy! Edit",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "./node_modules/.bin/webpack --config webpack.config.js --watch",
+    "bundle": "./node_modules/.bin/webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigharvi3/rearnakedmma.git"
+  },
+  "keywords": [
+    "snappy",
+    "share",
+    "links",
+    "photos",
+    "videos"
+  ],
+  "author": "Craig Harvie <harvie5@msn.com> (http://craigharvie.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/craigharvi3/rearnakedmma/issues"
+  },
+  "homepage": "https://github.com/craigharvi3/rearnakedmma#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.21.0",
+    "es6-promise": "^3.0.2",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.3.3",
+    "nodemon": "^1.11.0",
+    "postcss-loader": "^0.7.0",
+    "sass-loader": "^3.0.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.2"
+  },
+  "dependencies": {
+    "ajax-promise": "^0.8.1",
+    "alertifyjs": "^1.10.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "page-previewer": "^0.1.7",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.1",
+    "react-truncate": "^2.1.4",
+    "redux": "^3.6.0",
+    "rss-parser": "^2.10.1"
+  }
+}
